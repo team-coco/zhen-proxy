@@ -7,26 +7,19 @@
 <link rel="stylesheet" href="styles.css">
 
   <div id="navbar"></div>
+  <div id='MapAndImages'></div>
   <div id="highlights"></div>
+  <div id="reviews-module"></div>
+  <div id="right"></div>
 
 
   <script src="/lib/react.development.js"></script>
   <script src="/lib/react-dom.development.js"></script>
-  <script src="http://127.0.0.1:3033/bundle.js"></script>
   <script src="http://127.0.0.1:3003/bundle.js"></script>
-
-  <script>
-  ReactDOM.render(
-    React.createElement(Navbar),
-    document.getElementById('navbar')
-  );
-  ReactDOM.render(
-    React.createElement(Highlights),
-    document.getElementById('highlights')
-  );
-  </script>
-
-
+  <script src='http://localhost:3001/bundle.js'></script>
+  <script src="http://127.0.0.1:3033/bundle.js"></script>
+  <script src="http://127.0.0.1:3004/js/app.js"></script>
+  <script src="http://127.0.0.1:3002/bundle.js"></script>
 
 </body>
 </html>
