@@ -1,0 +1,73 @@
+body {
+  margin: 0px;
+}
+
+body {
+  font-family: "lucida grande";
+}
+
+h1 {
+display: inline;
+}
+
+.titlestyle {
+  width: 1000px;
+  margin:0 auto;
+  background-color: #f5f5f5;
+}
+
+.mapsstyle {
+  width: 970px;
+  margin:0 auto;
+  background-color: #f5f5f5;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 15px;
+}
+
+.bottom-half {
+  display:flex;
+  padding-top: 10px;
+  width: 1000px;
+  margin:0 auto;
+}
+
+.left {
+  width: 700px;
+  border-right: 1px solid lightgrey;
+}
+.right {
+  margin:0 auto;
+}
+
+.guinzar-search-sort {
+  height: 25px;
+  background-color: lightgrey;
+}
+.guinzar-reviews-container {
+  background-color: white;
+}
+.guinzar-review {
+  border: 3px solid whitesmoke;
+}
+
+.guinzar-review-text {
+  font-size: 12px;
+}
+.guinzar-user {
+  border: 3px solid whitesmoke;
+}
+
+.guinzar-yellow {
+  color: #d80000;
+}
+
+.related {
+  margin:0 auto;
+    width: 75%;
+}
+
+.right_bottom_sidebar {
+  /* width: 75%; */
+  padding-left: 15px;
+}
